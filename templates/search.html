@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<form class="search-form" method="post" action="/search">
+  <div class="input-group">
+    <div class="input-group2">
+      <label>
+        <input type="search" name="query" class="search-field" placeholder="Query" value="{{query}}">
+      </label>
+      <input type="submit" class="rstore-domain-search-button search-submit btn btn-primary" value="Search">
+    </div>
+
+    <div class="input-group2">
+      <p>{{ results }}</p>
+    </div>
+  </div>
+</form>
+
+{% endblock %}
