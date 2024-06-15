@@ -1,4 +1,4 @@
-def search4uniqsymbols(phrase:str) -> set:
+def search4symbols(phrase:str) -> set:
     """Возврощает уникальные символы"""
     return sorted(''.join(set(phrase)))
 
