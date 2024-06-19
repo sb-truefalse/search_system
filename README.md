@@ -3,6 +3,7 @@
 ## Features
 
 - Search for unique characters
+- Logging requests
 
 ## Getting Started
 
